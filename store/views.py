@@ -244,7 +244,7 @@ def rz_payment_integration(request):
 		}
 	},
 	"line_items":cart_items,
-	"sms_notify": 0,
+	"sms_notify": 1,
 	"email_notify": 1,
 	"currency": "INR",
 	"expire_by": invoice_expiry
